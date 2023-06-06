@@ -19812,6 +19812,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Particle System (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1195688561382518011, guid: ccb1e36ec49197841bb0bb7441451cf5, type: 3}
+      propertyPath: CustomDataModule.vector0_0.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195688561382518011, guid: ccb1e36ec49197841bb0bb7441451cf5, type: 3}
+      propertyPath: CustomDataModule.vector0_2.scalar
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195688561382518011, guid: ccb1e36ec49197841bb0bb7441451cf5, type: 3}
+      propertyPath: CustomDataModule.vector0_3.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195688561382518011, guid: ccb1e36ec49197841bb0bb7441451cf5, type: 3}
+      propertyPath: CustomDataModule.vector0_2.minMaxState
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1195688561382518011, guid: ccb1e36ec49197841bb0bb7441451cf5, type: 3}
+      propertyPath: CustomDataModule.vector0_3.minMaxState
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1195688561382518012, guid: ccb1e36ec49197841bb0bb7441451cf5, type: 3}
       propertyPath: m_RootOrder
       value: 4
