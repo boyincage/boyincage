@@ -1,0 +1,8 @@
+Diffuse=DefaultDiffuse
+Other[0]=TX_BonusIcon_ambient
+Other[1]=BlendFunc_DefBase
+Other[2]=BlendFunc_DefBlend
+Other[3]=DebugNumberStrip
+Other[4]=DebugNumberPeriod
+Other[5]=flipbook
+Other[6]=celebration_flipbook

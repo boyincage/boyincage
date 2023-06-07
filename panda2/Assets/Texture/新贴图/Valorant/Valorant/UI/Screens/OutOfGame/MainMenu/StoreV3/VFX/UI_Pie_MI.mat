@@ -1,0 +1,5 @@
+Diffuse=square_noise_glowblur_TFX
+Opacity=square_noise_glowblur_TFX
+Emissive=square_noise_glowblur_TFX
+Other[0]=00_Grad4x4_GS_TFX_Grayscale
+Other[1]=square_noise_Grayscale

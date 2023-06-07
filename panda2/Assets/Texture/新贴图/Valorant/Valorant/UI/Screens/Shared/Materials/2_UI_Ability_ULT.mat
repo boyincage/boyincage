@@ -1,0 +1,5 @@
+Diffuse=00_Debug_TEX
+Opacity=TX_HUD_Abilitybar_PainterlyMask_03
+Emissive=TX_Hud_Icons_Abilities_Empty
+Other[0]=XClouds_TEX
+Other[1]=TX_HUD_Abilitybar_HighColor_Blur

@@ -1,0 +1,113 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/UI/InGame/HUD/Crosshairs/crosshair.crosshair'
+    ReferencedTextures[1] = Texture2D'/Game/UI/InGame/HUD/Crosshairs/SniperCrosshair/Sniper_Crosshair_S0_DF.Sniper_Crosshair_S0_DF'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Y Offset }
+                    ParameterInfos[1] = { Name=Global Opacity Adjustment }
+                    ParameterInfos[2] = { Name=X }
+                    ParameterInfos[3] = { Name=Gradient Overlay Contrast }
+                    ParameterInfos[4] = { Name=X Offset }
+                    ParameterInfos[5] = { Name=Exterior Opacity }
+                    ParameterInfos[6] = { Name=Sphere Radius }
+                    ParameterInfos[7] = { Name=Y }
+                    ParameterInfos[8] = { Name=Sphere Hardness }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Crosshair Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=Sniper_Crosshair_DF }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[9] = { 0.5, 1, 1, 1, 0.8, 0.01, 0.5, 1, 1 }
+        VectorValues[1] =
+        {
+            VectorValues[0] = { R=0, G=0, B=0, A=0 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/UI/InGame/HUD/Crosshairs/SniperCrosshair/Sniper_Crosshair_S0_DF.Sniper_Crosshair_S0_DF'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/UI/InGame/HUD/Crosshairs/crosshair.crosshair'
+        ReferencedTextures[1] = Texture2D'/Game/UI/InGame/HUD/Crosshairs/SniperCrosshair/Sniper_Crosshair_S0_DF.Sniper_Crosshair_S0_DF'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/UI/InGame/HUD/Crosshairs/SniperCrosshair/Sniper_Crosshair_S0_DF.Sniper_Crosshair_S0_DF'
+        Name = Sniper_Crosshair_DF
+        Group = None
+    }
+}
+CollectedScalarParameters[9] =
+{
+    CollectedScalarParameters[0] = { Value=0.5, Name=Y Offset, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1
+        Name = Global Opacity Adjustment
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=1, Name=X, Group=None }
+    CollectedScalarParameters[3] =
+    {
+        Value = 1
+        Name = Gradient Overlay Contrast
+        Group = None
+    }
+    CollectedScalarParameters[4] = { Value=0.8, Name=X Offset, Group=None }
+    CollectedScalarParameters[5] = { Value=0.01, Name=Exterior Opacity, Group=None }
+    CollectedScalarParameters[6] = { Value=0.5, Name=Sphere Radius, Group=None }
+    CollectedScalarParameters[7] = { Value=1, Name=Y, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Sphere Hardness, Group=None }
+}
+CollectedVectorParameters[1] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Crosshair Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

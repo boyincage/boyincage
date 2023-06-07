@@ -1,0 +1,272 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[3] = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Default/TX_Killbanner_Default_PostMask.TX_Killbanner_Default_PostMask'
+    ReferencedTextures[4] = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Retro/TX_Killbanner_Retro_Gleam.TX_Killbanner_Retro_Gleam'
+    ReferencedTextures[5] = Texture2D'/Game/VFX/Textures/Mask/00_White_DIFF.00_White_DIFF'
+    ReferencedTextures[6] = Texture2D'/Game/VFX/Textures/Old/00_Black_DIFF.00_Black_DIFF'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[27] =
+                {
+                    ParameterInfos[0] = { Name=Image 3 Amplitude_1 }
+                    ParameterInfos[1] = { Name=Overlay Scrolling Curve }
+                    ParameterInfos[2] = { Name=Post Overlay V Scale }
+                    ParameterInfos[3] = { Name=Mask 3 Rotation }
+                    ParameterInfos[4] = { Name=Mask 3 Curve }
+                    ParameterInfos[5] = { Name=Plar Image Rotate }
+                    ParameterInfos[6] = { Name=Distortion Speed }
+                    ParameterInfos[7] = { Name=Image 3 Distortion Speed_1 }
+                    ParameterInfos[8] = { Name=Mask 3 V Scale }
+                    ParameterInfos[9] = { Name=Post Overlay Rotation }
+                    ParameterInfos[10] = { Name=Post Overlay Curve }
+                    ParameterInfos[11] = { Name=Mak 3 U }
+                    ParameterInfos[12] = { Name=Post Overlay U Scale }
+                    ParameterInfos[13] = { Name=U Scale }
+                    ParameterInfos[14] = { Name=Image 3 Distortion Tiling_1 }
+                    ParameterInfos[15] = { Name=Image 3 Standing Wave Speed_1 }
+                    ParameterInfos[16] = { Name=Image Cuve }
+                    ParameterInfos[17] = { Name=U Scale_1 }
+                    ParameterInfos[18] = { Name=Mask 3 V }
+                    ParameterInfos[19] = { Name=Standing Wave Speed }
+                    ParameterInfos[20] = { Name=Pre Rotate Value }
+                    ParameterInfos[21] = { Name=V Scale }
+                    ParameterInfos[22] = { Name=Amplitude }
+                    ParameterInfos[23] = { Name=V Scale_1 }
+                    ParameterInfos[24] = { Name=Mask 3 U Scale }
+                    ParameterInfos[25] = { Name=Distortion Tiling }
+                    ParameterInfos[26] = { Name=Overlay Scrolling Rotate }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Image 2 Darken }
+                    ParameterInfos[1] = { Name=Image 3 Scroll Speed }
+                    ParameterInfos[2] = { Name=Overlay Scrolling Speed }
+                    ParameterInfos[3] = { Name=Image Scroll }
+                    ParameterInfos[4] = { Name=Post Overlay Scroll }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=Mask 3 Image }
+                    ParameterInfos[1] = { Name=Texture 2 }
+                    ParameterInfos[2] = { Name=Texture }
+                    ParameterInfos[3] = { Name=Overlay Texture }
+                    ParameterInfos[4] = { Name=Post Overlay Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[27] =
+        {
+            ScalarValues[0] = 2
+            ScalarValues[1] = 1
+            ScalarValues[2] = 1
+            ScalarValues[3] = 0
+            ScalarValues[4] = 1
+            ScalarValues[5] = 0
+            ScalarValues[6] = 1
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1
+            ScalarValues[9] = 0
+            ScalarValues[10] = 1
+            ScalarValues[11] = 0
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 2
+            ScalarValues[15] = -0.01
+            ScalarValues[16] = 1
+            ScalarValues[17] = 1
+            ScalarValues[18] = 0
+            ScalarValues[19] = -0.01
+            ScalarValues[20] = 0
+            ScalarValues[21] = 1
+            ScalarValues[22] = 2
+            ScalarValues[23] = 1
+            ScalarValues[24] = 1
+            ScalarValues[25] = 2
+            ScalarValues[26] = 0
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=1, G=1, B=1, A=1 }
+            VectorValues[1] = { R=0, G=0, B=0, A=1 }
+            VectorValues[2] = { R=0, G=-0.110106, B=0, A=1 }
+            VectorValues[3] = { R=0, G=0, B=0, A=0 }
+            VectorValues[4] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[5] =
+        {
+            TextureValues[0] = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Retro/TX_Killbanner_Retro_Gleam.TX_Killbanner_Retro_Gleam'
+            TextureValues[1] = Texture2D'/Game/VFX/Textures/Old/00_Black_DIFF.00_Black_DIFF'
+            TextureValues[2] = Texture2D'/Game/VFX/Textures/Mask/00_White_DIFF.00_White_DIFF'
+            TextureValues[3] = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Default/TX_Killbanner_Default_PostMask.TX_Killbanner_Default_PostMask'
+            TextureValues[4] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        }
+    }
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/VFX/Textures/Mask/00_White_DIFF.00_White_DIFF'
+        ReferencedTextures[1] = Texture2D'/Game/VFX/Textures/Old/00_Black_DIFF.00_Black_DIFF'
+        ReferencedTextures[2] = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Default/TX_Killbanner_Default_PostMask.TX_Killbanner_Default_PostMask'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[6] = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Retro/TX_Killbanner_Retro_Gleam.TX_Killbanner_Retro_Gleam'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[5] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Retro/TX_Killbanner_Retro_Gleam.TX_Killbanner_Retro_Gleam'
+        Name = Mask 3 Image
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/VFX/Textures/Old/00_Black_DIFF.00_Black_DIFF'
+        Name = Texture 2
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/VFX/Textures/Mask/00_White_DIFF.00_White_DIFF'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Default/TX_Killbanner_Default_PostMask.TX_Killbanner_Default_PostMask'
+        Name = Overlay Texture
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = Post Overlay Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[27] =
+{
+    CollectedScalarParameters[0] = { Value=2, Name=Image 3 Amplitude_1, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 1
+        Name = Overlay Scrolling Curve
+        Group = None
+    }
+    CollectedScalarParameters[2] = { Value=1, Name=Post Overlay V Scale, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=Mask 3 Rotation, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Mask 3 Curve, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Plar Image Rotate, Group=None }
+    CollectedScalarParameters[6] = { Value=1, Name=Distortion Speed, Group=None }
+    CollectedScalarParameters[7] =
+    {
+        Value = 1
+        Name = Image 3 Distortion Speed_1
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=1, Name=Mask 3 V Scale, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=Post Overlay Rotation, Group=None }
+    CollectedScalarParameters[10] = { Value=1, Name=Post Overlay Curve, Group=None }
+    CollectedScalarParameters[11] = { Value=0, Name=Mak 3 U, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Post Overlay U Scale, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=U Scale, Group=None }
+    CollectedScalarParameters[14] =
+    {
+        Value = 2
+        Name = Image 3 Distortion Tiling_1
+        Group = None
+    }
+    CollectedScalarParameters[15] =
+    {
+        Value = -0.01
+        Name = Image 3 Standing Wave Speed_1
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=1, Name=Image Cuve, Group=None }
+    CollectedScalarParameters[17] = { Value=1, Name=U Scale_1, Group=None }
+    CollectedScalarParameters[18] = { Value=0, Name=Mask 3 V, Group=None }
+    CollectedScalarParameters[19] =
+    {
+        Value = -0.01
+        Name = Standing Wave Speed
+        Group = None
+    }
+    CollectedScalarParameters[20] = { Value=0, Name=Pre Rotate Value, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=V Scale, Group=None }
+    CollectedScalarParameters[22] = { Value=2, Name=Amplitude, Group=None }
+    CollectedScalarParameters[23] = { Value=1, Name=V Scale_1, Group=None }
+    CollectedScalarParameters[24] = { Value=1, Name=Mask 3 U Scale, Group=None }
+    CollectedScalarParameters[25] = { Value=2, Name=Distortion Tiling, Group=None }
+    CollectedScalarParameters[26] =
+    {
+        Value = 0
+        Name = Overlay Scrolling Rotate
+        Group = None
+    }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Image 2 Darken
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Image 3 Scroll Speed
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=-0.110106, B=0, A=1 }
+        Name = Overlay Scrolling Speed
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Image Scroll
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Post Overlay Scroll
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

@@ -1,0 +1,110 @@
+Parent = Material3'/Game/UI/Screens/OutOfGame/MainMenu/Home/Materials/MAT_Metagame_HomeLanding_TileImage_Master.MAT_Metagame_HomeLanding_TileImage_Master'
+ScalarParameterValues[4] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Amplify }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Mask Rotation Angle }
+        ParameterValue = 0.019048
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Hover Ampliify }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[4] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=Gleam Texture }
+        ParameterValue = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Default/TX_Killbanner_Default_TopNumeralAMask.TX_Killbanner_Default_TopNumeralAMask'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=Mask }
+        ParameterValue = Texture2D'/Game/UI/Screens/OutOfGame/MainMenu/Home/Textures/TX_Metagame_HomeLanding_TileTextureSmall.TX_Metagame_HomeLanding_TileTextureSmall'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Mask Outter }
+        ParameterValue = Texture2D'/Game/UI/InGame/HUD/Ceremonies/Assets/TX_Hud_Ceremony_CharacterDiamond_Mask.TX_Hud_Ceremony_CharacterDiamond_Mask'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=TextureHere }
+        ParameterValue = Texture2D'/Game/UI/Screens/Shared/Icons/Characters/TX_Icon_Announcements_Thorne.TX_Icon_Announcements_Thorne'
+        ParameterName = None
+    }
+}
+VectorParameterValues[1] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=Mask Scroll }
+        ParameterValue = { R=0, G=0.152381, B=0, A=0 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=Use Texture's Alpha Channel Keep Mask }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=Gleam Active }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=MirrorYes }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

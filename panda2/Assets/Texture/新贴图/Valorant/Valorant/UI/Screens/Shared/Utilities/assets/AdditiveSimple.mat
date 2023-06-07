@@ -1,0 +1,3 @@
+Diffuse=00_White_DIFF
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend

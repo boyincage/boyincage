@@ -1,0 +1,216 @@
+Parent = Material3'/Game/VFX/Materials/0_GenericUI_MAT.0_GenericUI_MAT'
+ScalarParameterValues[16] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=DistortUV_Base_Power }
+        ParameterValue = 6.33596
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=DistortUV_BaseMult_Power }
+        ParameterValue = 0.735611
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Emissive_Flicker_Hard_Speed }
+        ParameterValue = 95.723
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Alpha_Base_Power }
+        ParameterValue = 2.1882
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=Alpha_Base_PowerBegin }
+        ParameterValue = 0.949929
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=Alpha_Base_PowerEnd }
+        ParameterValue = 4.15914
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=Alpha_Base_PowerSpeed }
+        ParameterValue = 1.0433
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=Alpha_ColorMult }
+        ParameterValue = 3.95018
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=Alpha_ScrollU }
+        ParameterValue = -0.155963
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=Alpha_ScrollV }
+        ParameterValue = 0.348624
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Alpha_Layer1_Base_Power }
+        ParameterValue = 1.22669
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=Alpha_Layer1_ScaleU }
+        ParameterValue = 1.5
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=Alpha_Layer1_ScaleV }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Alpha_Layer1_ScrollU }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=Alpha_Layer1_ScrollV }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[6] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=DistortUV_Base }
+        ParameterValue = Texture2D'/Game/VFX/Textures/Old/XClouds_TEX.XClouds_TEX'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=DistortUV_BaseMult }
+        ParameterValue = Texture2D'/Game/VFX/Textures/Old/XClouds_TEX.XClouds_TEX'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=Emissive_Base }
+        ParameterValue = Texture2D'/Game/UI/InGame/HUD/Abilities/Assets/AddNew/TX_Hud_Icons_Abilities_ClayUlt.TX_Hud_Icons_Abilities_ClayUlt'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=Alpha_Base }
+        ParameterValue = Texture2D'/Game/VFX/Textures/Old/Static_TEX.Static_TEX'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Alpha_Layer1_Base }
+        ParameterValue = Texture2D'/Game/UI/Screens/Shared/Materials/Ares_Coregame_Endgame_Motion_ElemtalZoom1.Ares_Coregame_Endgame_Motion_ElemtalZoom1'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=Alpha_Layer2_Base }
+        ParameterValue = Texture2D'/Game/UI/InGame/HUD/Abilities/Assets/AddNew/TX_Hud_Icons_Abilities_ClayUlt.TX_Hud_Icons_Abilities_ClayUlt'
+        ParameterName = None
+    }
+}
+VectorParameterValues[0] = {}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = true
+    BlendMode = BLEND_Additive (3)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[8] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = true
+            ParameterInfo = { Name=StaticMeshAlpha_aToggle }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=StaticMeshColor_aToggle }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=DistortUV_aToggle }
+            bOverride = true
+        }
+        StaticSwitchParameters[3] =
+        {
+            Value = true
+            ParameterInfo = { Name=DistortUV_BaseMult_aToggle }
+            bOverride = true
+        }
+        StaticSwitchParameters[4] =
+        {
+            Value = true
+            ParameterInfo = { Name=Emissive_aToggle }
+            bOverride = true
+        }
+        StaticSwitchParameters[5] =
+        {
+            Value = true
+            ParameterInfo = { Name=Alpha_Layer1_aToggle_Add }
+            bOverride = true
+        }
+        StaticSwitchParameters[6] =
+        {
+            Value = true
+            ParameterInfo = { Name=Alpha_Layer1_PolarCoord }
+            bOverride = true
+        }
+        StaticSwitchParameters[7] =
+        {
+            Value = true
+            ParameterInfo = { Name=Alpha_Layer2_aToggle_Add }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

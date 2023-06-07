@@ -1,0 +1,90 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/UI/Screens/OutOfGame/MainMenu/StoreV3/UI_Featured_mask.UI_Featured_mask'
+    ReferencedTextures[1] = Texture2D'/Game/VFX/Textures/AlphaGradient/Gradient4px_Grayscale.Gradient4px_Grayscale'
+    ReferencedTextures[2] = Texture2D'/Game/VFX/Textures/Old/00_Black_DIFF.00_Black_DIFF'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=Transition }
+                    ParameterInfos[1] = { Name=Opacity }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=DisplayingImages }
+                    ParameterInfos[1] = { Name=TransitionMask }
+                    ParameterInfos[2] = { Name=BwMaskImage }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[2] = { 1, 1 }
+        VectorValues[0] = {}
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/VFX/Textures/Old/00_Black_DIFF.00_Black_DIFF'
+            TextureValues[1] = Texture2D'/Game/VFX/Textures/AlphaGradient/Gradient4px_Grayscale.Gradient4px_Grayscale'
+            TextureValues[2] = Texture2D'/Game/UI/Screens/OutOfGame/MainMenu/StoreV3/UI_Featured_mask.UI_Featured_mask'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/VFX/Textures/Old/00_Black_DIFF.00_Black_DIFF'
+        ReferencedTextures[1] = Texture2D'/Game/UI/Screens/OutOfGame/MainMenu/StoreV3/UI_Featured_mask.UI_Featured_mask'
+        ReferencedTextures[2] = Texture2D'/Game/VFX/Textures/AlphaGradient/Gradient4px_Grayscale.Gradient4px_Grayscale'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/VFX/Textures/Old/00_Black_DIFF.00_Black_DIFF'
+        Name = DisplayingImages
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/VFX/Textures/AlphaGradient/Gradient4px_Grayscale.Gradient4px_Grayscale'
+        Name = TransitionMask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/UI/Screens/OutOfGame/MainMenu/StoreV3/UI_Featured_mask.UI_Featured_mask'
+        Name = BwMaskImage
+        Group = None
+    }
+}
+CollectedScalarParameters[2] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Transition, Group=None }
+    CollectedScalarParameters[1] = { Value=1, Name=Opacity, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

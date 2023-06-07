@@ -1,0 +1,7 @@
+Diffuse=00_Debug_TEX
+Opacity=Ares_Coregame_Endgame_Motion_ElemtalZoom2
+Emissive=00_White_DIFF
+Other[0]=EdgesSoft_TEX
+Other[1]=TX_EOG_VOutline_Mask2
+Other[2]=T_Ubershader_WhiteBox
+Other[3]=XClouds_TEX

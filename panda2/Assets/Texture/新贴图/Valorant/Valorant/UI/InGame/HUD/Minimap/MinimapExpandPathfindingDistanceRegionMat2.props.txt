@@ -1,0 +1,141 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[5] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/UI/InGame/HUD/assets/tBgCircle.tBgCircle'
+    ReferencedTextures[1] = Texture2D'/Game/UI/InGame/HUD/Minimap/Ascent/OutDangerZones_Ascent.OutDangerZones_Ascent'
+    ReferencedTextures[2] = Texture2D'/Game/UI/InGame/HUD/Minimap/Ascent/TX_Hud_Minimap_Venice_Danger_Zone_Mask.TX_Hud_Minimap_Venice_Danger_Zone_Mask'
+    ReferencedTextures[3] = Texture2D'/Game/UI/InGame/HUD/Minimap/Ascent/TX_Hud_Minimap_Venice_Vision_Mask.TX_Hud_Minimap_Venice_Vision_Mask'
+    ReferencedTextures[4] = Texture2D'/Game/VFX/Textures/00_Debug_TEX.00_Debug_TEX'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=RoundingFactor }
+                    ParameterInfos[1] = { Name=CurrentUncertaintyRadius_Percent }
+                    ParameterInfos[2] = { Name=LookupTableRowTexcoord }
+                    ParameterInfos[3] = { Name=LifeCurveAlpha }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=ClipScale }
+                    ParameterInfos[1] = { Name=MinimapScaleAndBias }
+                    ParameterInfos[2] = { Name=ClipUVOffset }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=DangerZonesTexture }
+                    ParameterInfos[1] = { Name=MinimapUITexture }
+                    ParameterInfos[2] = { Name=DistanceLookupTableTexture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 4, 0.5, 0.515625, 0.5 }
+        VectorValues[3] =
+        {
+            VectorValues[0] = { R=1, G=1, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=0, A=0 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/UI/InGame/HUD/Minimap/Ascent/TX_Hud_Minimap_Venice_Danger_Zone_Mask.TX_Hud_Minimap_Venice_Danger_Zone_Mask'
+            TextureValues[1] = Texture2D'/Game/UI/InGame/HUD/Minimap/Ascent/TX_Hud_Minimap_Venice_Vision_Mask.TX_Hud_Minimap_Venice_Vision_Mask'
+            TextureValues[2] = Texture2D'/Game/UI/InGame/HUD/Minimap/Ascent/OutDangerZones_Ascent.OutDangerZones_Ascent'
+        }
+    }
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/UI/InGame/HUD/Minimap/Ascent/OutDangerZones_Ascent.OutDangerZones_Ascent'
+        ReferencedTextures[1] = Texture2D'/Game/UI/InGame/HUD/assets/tBgCircle.tBgCircle'
+        ReferencedTextures[2] = Texture2D'/Game/UI/InGame/HUD/Minimap/Ascent/TX_Hud_Minimap_Venice_Vision_Mask.TX_Hud_Minimap_Venice_Vision_Mask'
+        ReferencedTextures[4] = Texture2D'/Game/VFX/Textures/00_Debug_TEX.00_Debug_TEX'
+        ReferencedTextures[5] = Texture2D'/Game/UI/InGame/HUD/Minimap/Ascent/TX_Hud_Minimap_Venice_Danger_Zone_Mask.TX_Hud_Minimap_Venice_Danger_Zone_Mask'
+    }
+}
+BlendMode = BLEND_Masked (1)
+OpacityMaskClipValue = 0.1
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/UI/InGame/HUD/Minimap/Ascent/TX_Hud_Minimap_Venice_Danger_Zone_Mask.TX_Hud_Minimap_Venice_Danger_Zone_Mask'
+        Name = DangerZonesTexture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/UI/InGame/HUD/Minimap/Ascent/TX_Hud_Minimap_Venice_Vision_Mask.TX_Hud_Minimap_Venice_Vision_Mask'
+        Name = MinimapUITexture
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/UI/InGame/HUD/Minimap/Ascent/OutDangerZones_Ascent.OutDangerZones_Ascent'
+        Name = DistanceLookupTableTexture
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=4, Name=RoundingFactor, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.5
+        Name = CurrentUncertaintyRadius_Percent
+        Group = None
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.515625
+        Name = LookupTableRowTexcoord
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=0.5, Name=LifeCurveAlpha, Group=None }
+}
+CollectedVectorParameters[3] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = ClipScale
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=0, A=0 }
+        Name = MinimapScaleAndBias
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = ClipUVOffset
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

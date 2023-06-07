@@ -1,0 +1,262 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[8] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[3] = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Default/TX_Killbanner_Default_BackingShadow.TX_Killbanner_Default_BackingShadow'
+    ReferencedTextures[4] = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Default/TX_Killbanner_Default_TopNumeralAMask.TX_Killbanner_Default_TopNumeralAMask'
+    ReferencedTextures[5] = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Retro/TX_Killbanner_Retro_MidBackingHalfMask.TX_Killbanner_Retro_MidBackingHalfMask'
+    ReferencedTextures[6] = Texture2D'/Game/VFX/Textures/AlphaGradient/GradientVertB_TEX.GradientVertB_TEX'
+    ReferencedTextures[7] = Texture2D'/Game/VFX/Textures/Mask/00_White_DIFF.00_White_DIFF'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=Amplify Mask }
+                    ParameterInfos[1] = { Name=Polar Mask Rotate }
+                    ParameterInfos[2] = { Name=Mask Curve }
+                    ParameterInfos[3] = { Name=Amplify Texture }
+                    ParameterInfos[4] = { Name=Mask 3 V Scale }
+                    ParameterInfos[5] = { Name=GleamCurve }
+                    ParameterInfos[6] = { Name=Mask 3 Rotate }
+                    ParameterInfos[7] = { Name=U Scale }
+                    ParameterInfos[8] = { Name=Mask 2 Multiplied }
+                    ParameterInfos[9] = { Name=Shading Curve }
+                    ParameterInfos[10] = { Name=V Scale }
+                    ParameterInfos[11] = { Name=Mask 3 Multiplied }
+                    ParameterInfos[12] = { Name=Mask 2 Rotate }
+                    ParameterInfos[13] = { Name=Mask 3 U Scale }
+                    ParameterInfos[14] = { Name=Shading Rotate }
+                    ParameterInfos[15] = { Name=Gleam Rotate }
+                    ParameterInfos[16] = { Name=Polar Image Rotate }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[9] =
+                {
+                    ParameterInfos[0] = { Name=Polar Scroll }
+                    ParameterInfos[1] = { Name=Shading Alpha }
+                    ParameterInfos[2] = { Name=Mask 3 Scroll Speed }
+                    ParameterInfos[3] = { Name=Scroll Speed }
+                    ParameterInfos[4] = { Name=Image Shading Overlay }
+                    ParameterInfos[5] = { Name=Polar Image Scroll }
+                    ParameterInfos[6] = { Name=Chroma Value }
+                    ParameterInfos[7] = { Name=Gleam Scroll }
+                    ParameterInfos[8] = { Name=Gleam Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[7] =
+                {
+                    ParameterInfos[0] = { Name=Mask 3 }
+                    ParameterInfos[1] = { Name=Shading Mask }
+                    ParameterInfos[2] = { Name=Mask 2 }
+                    ParameterInfos[3] = { Name=Mask }
+                    ParameterInfos[4] = { Name=Texture }
+                    ParameterInfos[5] = { Name=Chroma Mask }
+                    ParameterInfos[6] = { Name=Gleam Texture }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[17] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0
+            ScalarValues[2] = 1
+            ScalarValues[3] = 1
+            ScalarValues[4] = 1
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0
+            ScalarValues[8] = 1
+            ScalarValues[9] = 2.71766
+            ScalarValues[10] = 0
+            ScalarValues[11] = 1
+            ScalarValues[12] = 0
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0
+            ScalarValues[15] = 0
+            ScalarValues[16] = 0
+        }
+        VectorValues[9] =
+        {
+            VectorValues[0] = { R=0, G=0.295238, B=0, A=0 }
+            VectorValues[1] = { R=1, G=1, B=1, A=1 }
+            VectorValues[2] = { R=0, G=0, B=0, A=1 }
+            VectorValues[3] = { R=0, G=0.3, B=0, A=0 }
+            VectorValues[4] = { R=0.5625, G=0.5625, B=0.5625, A=1 }
+            VectorValues[5] = { R=0, G=0.295238, B=0, A=0 }
+            VectorValues[6] = { R=1, G=0.019892, B=0, A=1 }
+            VectorValues[7] = { R=0, G=0, B=0, A=0 }
+            VectorValues[8] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[7] =
+        {
+            TextureValues[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+            TextureValues[1] = Texture2D'/Game/VFX/Textures/AlphaGradient/GradientVertB_TEX.GradientVertB_TEX'
+            TextureValues[2] = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Default/TX_Killbanner_Default_BackingShadow.TX_Killbanner_Default_BackingShadow'
+            TextureValues[3] = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Default/TX_Killbanner_Default_BackingShadow.TX_Killbanner_Default_BackingShadow'
+            TextureValues[4] = Texture2D'/Game/VFX/Textures/Mask/00_White_DIFF.00_White_DIFF'
+            TextureValues[5] = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Retro/TX_Killbanner_Retro_MidBackingHalfMask.TX_Killbanner_Retro_MidBackingHalfMask'
+            TextureValues[6] = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Default/TX_Killbanner_Default_TopNumeralAMask.TX_Killbanner_Default_TopNumeralAMask'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/VFX/Textures/Mask/00_White_DIFF.00_White_DIFF'
+        ReferencedTextures[1] = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Default/TX_Killbanner_Default_BackingShadow.TX_Killbanner_Default_BackingShadow'
+        ReferencedTextures[2] = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Default/TX_Killbanner_Default_TopNumeralAMask.TX_Killbanner_Default_TopNumeralAMask'
+        ReferencedTextures[3] = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Retro/TX_Killbanner_Retro_MidBackingHalfMask.TX_Killbanner_Retro_MidBackingHalfMask'
+        ReferencedTextures[4] = Texture2D'/Game/VFX/Textures/AlphaGradient/GradientVertB_TEX.GradientVertB_TEX'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[7] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[7] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        Name = Mask 3
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/VFX/Textures/AlphaGradient/GradientVertB_TEX.GradientVertB_TEX'
+        Name = Shading Mask
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Default/TX_Killbanner_Default_BackingShadow.TX_Killbanner_Default_BackingShadow'
+        Name = Mask 2
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Default/TX_Killbanner_Default_BackingShadow.TX_Killbanner_Default_BackingShadow'
+        Name = Mask
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/VFX/Textures/Mask/00_White_DIFF.00_White_DIFF'
+        Name = Texture
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Retro/TX_Killbanner_Retro_MidBackingHalfMask.TX_Killbanner_Retro_MidBackingHalfMask'
+        Name = Chroma Mask
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/UI/InGame/HUD/Killbanner/assets/Skin_Default/TX_Killbanner_Default_TopNumeralAMask.TX_Killbanner_Default_TopNumeralAMask'
+        Name = Gleam Texture
+        Group = None
+    }
+}
+CollectedScalarParameters[17] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Amplify Mask, Group=None }
+    CollectedScalarParameters[1] = { Value=0, Name=Polar Mask Rotate, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Mask Curve, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Amplify Texture, Group=None }
+    CollectedScalarParameters[4] = { Value=1, Name=Mask 3 V Scale, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=GleamCurve, Group=None }
+    CollectedScalarParameters[6] = { Value=0, Name=Mask 3 Rotate, Group=None }
+    CollectedScalarParameters[7] = { Value=0, Name=U Scale, Group=None }
+    CollectedScalarParameters[8] = { Value=1, Name=Mask 2 Multiplied, Group=None }
+    CollectedScalarParameters[9] = { Value=2.71766, Name=Shading Curve, Group=None }
+    CollectedScalarParameters[10] = { Value=0, Name=V Scale, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Mask 3 Multiplied, Group=None }
+    CollectedScalarParameters[12] = { Value=0, Name=Mask 2 Rotate, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Mask 3 U Scale, Group=None }
+    CollectedScalarParameters[14] = { Value=0, Name=Shading Rotate, Group=None }
+    CollectedScalarParameters[15] = { Value=0, Name=Gleam Rotate, Group=None }
+    CollectedScalarParameters[16] = { Value=0, Name=Polar Image Rotate, Group=None }
+}
+CollectedVectorParameters[9] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0, G=0.295238, B=0, A=0 }
+        Name = Polar Scroll
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Shading Alpha
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0, B=0, A=1 }
+        Name = Mask 3 Scroll Speed
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0.3, B=0, A=0 }
+        Name = Scroll Speed
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.5625, G=0.5625, B=0.5625, A=1 }
+        Name = Image Shading Overlay
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0, G=0.295238, B=0, A=0 }
+        Name = Polar Image Scroll
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=1, G=0.019892, B=0, A=1 }
+        Name = Chroma Value
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0, G=0, B=0, A=0 }
+        Name = Gleam Scroll
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Gleam Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

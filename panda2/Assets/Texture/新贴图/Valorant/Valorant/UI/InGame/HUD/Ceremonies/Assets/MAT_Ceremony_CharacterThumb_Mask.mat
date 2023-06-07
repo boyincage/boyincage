@@ -1,0 +1,9 @@
+Diffuse=00_White_DIFF
+Other[0]=TX_Killbanner_Default_TopNumeralAMask
+Other[1]=TX_Metagame_HomeLanding_TileTextureSmall
+Other[2]=TX_Hud_Ceremony_CharacterDiamond_Mask
+Other[3]=TX_Icon_Announcements_Thorne
+Other[4]=BlendFunc_DefBase
+Other[5]=BlendFunc_DefBlend
+Other[6]=TX_Killbanner_Soul_MidRuneGlowMask
+Other[7]=TX_Metagame_HomeLanding_HoverEdge

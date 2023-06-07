@@ -1,0 +1,8 @@
+Diffuse=00_White_DIFF
+Other[0]=TX_HUD_Abilties_Hunter_E_CenterReticle
+Other[1]=BlendFunc_DefBase
+Other[2]=BlendFunc_DefBlend
+Other[3]=DefaultTexture
+Other[4]=TX_Killbanner_Default_PostMask
+Other[5]=TX_Killbanner_Retro_Gleam
+Other[6]=00_Black_DIFF

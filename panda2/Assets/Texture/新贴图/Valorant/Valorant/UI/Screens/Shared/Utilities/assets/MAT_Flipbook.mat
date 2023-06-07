@@ -1,0 +1,7 @@
+Diffuse=DefaultDiffuse
+Other[0]=BlendFunc_DefBase
+Other[1]=BlendFunc_DefBlend
+Other[2]=DebugNumberStrip
+Other[3]=DebugNumberPeriod
+Other[4]=flipbook
+Other[5]=celebration_flipbook

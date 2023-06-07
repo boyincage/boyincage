@@ -1,0 +1,119 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[3] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/UI/InGame/HUD/KillCallout/KillFeed_Assists/Textures/TX_Glitch_Test.TX_Glitch_Test'
+    ReferencedTextures[1] = Texture2D'/Game/UI/InGame/HUD/Shared/Textures/TX_Glitch_line.TX_Glitch_line'
+    ReferencedTextures[2] = Texture2D'/Game/UI/Screens/OutOfGame/MainMenu/StoreV3/VFX/square_noise.square_noise'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[4] =
+                {
+                    ParameterInfos[0] = { Name=GlitchAmount }
+                    ParameterInfos[1] = { Name=AberrationLeftAmount }
+                    ParameterInfos[2] = { Name=GlitchColorOpacity }
+                    ParameterInfos[3] = { Name=AberrationRightAmount }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=LeftGlitchColor }
+                    ParameterInfos[1] = { Name=GlitchColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Glitch_Texture }
+                    ParameterInfos[1] = { Name=Param_2 }
+                    ParameterInfos[2] = { Name=Portrait }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[4] = { 0.2, 1.2, 0.2, 0 }
+        VectorValues[2] =
+        {
+            VectorValues[0] = { R=0.158961, G=0.171441, B=0.059511, A=1 }
+            VectorValues[1] = { R=0.87451, G=0.105882, B=0.094117, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/UI/InGame/HUD/Shared/Textures/TX_Glitch_line.TX_Glitch_line'
+            TextureValues[1] = Texture2D'/Game/UI/Screens/OutOfGame/MainMenu/StoreV3/VFX/square_noise.square_noise'
+            TextureValues[2] = Texture2D'/Game/UI/InGame/HUD/KillCallout/KillFeed_Assists/Textures/TX_Glitch_Test.TX_Glitch_Test'
+        }
+    }
+    ReferencedTextures[3] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/UI/InGame/HUD/KillCallout/KillFeed_Assists/Textures/TX_Glitch_Test.TX_Glitch_Test'
+        ReferencedTextures[1] = Texture2D'/Game/UI/InGame/HUD/Shared/Textures/TX_Glitch_line.TX_Glitch_line'
+        ReferencedTextures[2] = Texture2D'/Game/UI/Screens/OutOfGame/MainMenu/StoreV3/VFX/square_noise.square_noise'
+    }
+}
+BlendMode = BLEND_Additive (3)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/UI/InGame/HUD/Shared/Textures/TX_Glitch_line.TX_Glitch_line'
+        Name = Glitch_Texture
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/UI/Screens/OutOfGame/MainMenu/StoreV3/VFX/square_noise.square_noise'
+        Name = Param_2
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/UI/InGame/HUD/KillCallout/KillFeed_Assists/Textures/TX_Glitch_Test.TX_Glitch_Test'
+        Name = Portrait
+        Group = None
+    }
+}
+CollectedScalarParameters[4] =
+{
+    CollectedScalarParameters[0] = { Value=0.2, Name=GlitchAmount, Group=None }
+    CollectedScalarParameters[1] = { Value=1.2, Name=AberrationLeftAmount, Group=None }
+    CollectedScalarParameters[2] = { Value=0.2, Name=GlitchColorOpacity, Group=None }
+    CollectedScalarParameters[3] = { Value=0, Name=AberrationRightAmount, Group=None }
+}
+CollectedVectorParameters[2] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.158961, G=0.171441, B=0.059511, A=1 }
+        Name = LeftGlitchColor
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.87451, G=0.105882, B=0.094117, A=1 }
+        Name = GlitchColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

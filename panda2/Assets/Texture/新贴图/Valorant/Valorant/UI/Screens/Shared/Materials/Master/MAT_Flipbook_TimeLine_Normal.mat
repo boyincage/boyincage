@@ -1,0 +1,5 @@
+Diffuse=DefaultDiffuse
+SpecPower=Ether_Spark_Anim
+Other[0]=DebugNumberStrip
+Other[1]=DebugNumberPeriod
+Other[2]=flipbook

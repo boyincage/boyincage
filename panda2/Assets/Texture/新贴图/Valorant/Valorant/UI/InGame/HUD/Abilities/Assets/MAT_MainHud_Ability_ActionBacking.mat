@@ -1,0 +1,8 @@
+Diffuse=00_White_DIFF
+Other[0]=TX_HUD_Ability_Action_BGFill
+Other[1]=TX_MainHud_AbilityBar_DarkBG_Multy
+Other[2]=BlendFunc_DefBase
+Other[3]=BlendFunc_DefBlend
+Other[4]=TX_Killbanner_Default_TopNumeralAMask
+Other[5]=TX_Killbanner_Soul_MidRuneGlowMask
+Other[6]=TX_Metagame_HomeLanding_HoverEdge

@@ -1,0 +1,706 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[2] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/VFX/Textures/AlphaGradient/00_Grad4x4_GS_TFX_Grayscale.00_Grad4x4_GS_TFX_Grayscale'
+    ReferencedTextures[1] = Texture2D'/Game/VFX/Textures/NoiseDissolve/square_noise_Grayscale.square_noise_Grayscale'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[76] =
+                {
+                    ParameterInfos[0] = { Name=TexBOT_Emissive Color UVScale Offset V }
+                    ParameterInfos[1] = { Name=BOT_Opacity Layer 1 UVScroll Scroll U }
+                    ParameterInfos[2] = { Name=Emissive Color UVScale Scale V }
+                    ParameterInfos[3] = { Name=TexLEFT_Emissive Color UVScale Scale V }
+                    ParameterInfos[4] =
+                    {
+                        Name = Opacity ColorDissolveV2 Intensity Negative
+                    }
+                    ParameterInfos[5] = { Name=Emissive Color UVScroll Scroll U }
+                    ParameterInfos[6] = { Name=BOT_Opacity UVScale Offset U }
+                    ParameterInfos[7] = { Name=TexRIGHT_Emissive Color UVScroll Scroll V }
+                    ParameterInfos[8] = { Name=TexRIGHT_Emissive Color UVScale Offset V }
+                    ParameterInfos[9] = { Name=Position }
+                    ParameterInfos[10] = { Name=LEFT_Opacity UVScale Scale U }
+                    ParameterInfos[11] = { Name=Emissive Color UVScale Offset V }
+                    ParameterInfos[12] = { Name=LEFT_Opacity UVScale Offset V }
+                    ParameterInfos[13] = { Name=RIGHT_Opacity UVScroll Scroll V }
+                    ParameterInfos[14] = { Name=LEFT_Opacity UVScale Scale V }
+                    ParameterInfos[15] = { Name=Opacity Layer 1 UVScroll Scroll V }
+                    ParameterInfos[16] = { Name=TexBOT_Emissive Color UVScale Scale V }
+                    ParameterInfos[17] = { Name=BOT_Opacity UVScale Scale U }
+                    ParameterInfos[18] = { Name=RIGHT_Opacity UVScale Offset U }
+                    ParameterInfos[19] = { Name=BOT_Opacity UVRotate Rotate }
+                    ParameterInfos[20] = { Name=LEFT_Opacity UVRotate Rotate Rate }
+                    ParameterInfos[21] = { Name=RIGHT_Opacity UVRotate Rotate }
+                    ParameterInfos[22] = { Name=Emissive Color UVScale Offset U }
+                    ParameterInfos[23] = { Name=TexBOT_Emissive Color UVScale Offset U }
+                    ParameterInfos[24] = { Name=LEFT_Opacity Layer 1 UVScroll Scroll V }
+                    ParameterInfos[25] = { Name=LEFT_Opacity Layer 1 UVScroll Scroll U }
+                    ParameterInfos[26] = { Name=BOT_Opacity UVScale Scale V }
+                    ParameterInfos[27] = { Name=TexBOT_Emissive Color UVScale Scale U }
+                    ParameterInfos[28] = { Name=Opacity UVScale Offset U }
+                    ParameterInfos[29] = { Name=RIGHT_Opacity UVScale Offset V }
+                    ParameterInfos[30] = { Name=LEFT_Opacity UVScale Offset U }
+                    ParameterInfos[31] = { Name=RIGHT_Opacity Layer 1 UVScale Offset V }
+                    ParameterInfos[32] = { Name=LEFT_Opacity UVScroll Scroll V }
+                    ParameterInfos[33] = { Name=RIGHT_Opacity UVScale Scale V }
+                    ParameterInfos[34] = { Name=Dissolve }
+                    ParameterInfos[35] = { Name=TexLEFT_Emissive Color UVScale Offset U }
+                    ParameterInfos[36] = { Name=Opacity UVRotate Rotate }
+                    ParameterInfos[37] = { Name=Opacity UVScroll Scroll U }
+                    ParameterInfos[38] = { Name=TexRIGHT_Emissive Color UVScale Scale U }
+                    ParameterInfos[39] = { Name=LEFT_Opacity UVScroll Scroll U }
+                    ParameterInfos[40] = { Name=LEFT_Opacity FloatPower Exp }
+                    ParameterInfos[41] = { Name=TexLEFT_Emissive Color UVScale Offset V }
+                    ParameterInfos[42] = { Name=RIGHT_Opacity Layer 1 UVScale Scale U }
+                    ParameterInfos[43] = { Name=RIGHT_Opacity UVRotate Rotate Rate }
+                    ParameterInfos[44] = { Name=Emissive Color UVScroll Scroll V }
+                    ParameterInfos[45] = { Name=BOT_Opacity UVScroll Scroll U }
+                    ParameterInfos[46] = { Name=Opacity UVScale Scale V }
+                    ParameterInfos[47] = { Name=Opacity Layer 1 UVScroll Scroll U }
+                    ParameterInfos[48] = { Name=Opacity UVScroll Scroll V }
+                    ParameterInfos[49] = { Name=BOT_Opacity UVScroll Scroll V }
+                    ParameterInfos[50] = { Name=RIGHT_Opacity Layer 1 UVScale Scale V }
+                    ParameterInfos[51] = { Name=TexBOT_Emissive Color UVScroll Scroll U }
+                    ParameterInfos[52] = { Name=TexLEFT_Emissive Color UVScroll Scroll V }
+                    ParameterInfos[53] = { Name=BOT_Opacity UVRotate Rotate Rate }
+                    ParameterInfos[54] = { Name=LEFT_Opacity UVRotate Rotate }
+                    ParameterInfos[55] = { Name=TexLEFT_Emissive Color UVScale Scale U }
+                    ParameterInfos[56] = { Name=BOT_Opacity FloatPower Exp }
+                    ParameterInfos[57] = { Name=TexRIGHT_Emissive Color UVScroll Scroll U }
+                    ParameterInfos[58] = { Name=RIGHT_Opacity UVScroll Scroll U }
+                    ParameterInfos[59] = { Name=Opacity UVRotate Rotate Rate }
+                    ParameterInfos[60] = { Name=RIGHT_Opacity UVScale Scale U }
+                    ParameterInfos[61] = { Name=Opacity UVScale Scale U }
+                    ParameterInfos[62] = { Name=RIGHT_Opacity Layer 1 UVScroll Scroll U }
+                    ParameterInfos[63] = { Name=TexBOT_Emissive Color UVScroll Scroll V }
+                    ParameterInfos[64] = { Name=TexRIGHT_Emissive Color UVScale Scale V }
+                    ParameterInfos[65] = { Name=BOT_Opacity Layer 1 UVScroll Scroll V }
+                    ParameterInfos[66] = { Name=RIGHT_Opacity Layer 1 UVScroll Scroll V }
+                    ParameterInfos[67] = { Name=Opacity ColorDissolveV2 Intensity }
+                    ParameterInfos[68] = { Name=Emissive Color UVScale Scale U }
+                    ParameterInfos[69] = { Name=RIGHT_Opacity Layer 1 UVScale Offset U }
+                    ParameterInfos[70] = { Name=Opacity FloatPower Exp }
+                    ParameterInfos[71] = { Name=BOT_Opacity UVScale Offset V }
+                    ParameterInfos[72] = { Name=Emissive Intensify }
+                    ParameterInfos[73] = { Name=TexLEFT_Emissive Color UVScroll Scroll U }
+                    ParameterInfos[74] = { Name=TexRIGHT_Emissive Color UVScale Offset U }
+                    ParameterInfos[75] = { Name=RIGHT_Opacity FloatPower Exp }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] =
+            {
+                ParameterInfos[6] =
+                {
+                    ParameterInfos[0] = { Name=BOT_Opacity }
+                    ParameterInfos[1] = { Name=Opacity Layer 1 }
+                    ParameterInfos[2] = { Name=Emissive Color }
+                    ParameterInfos[3] = { Name=LEFT_Opacity }
+                    ParameterInfos[4] = { Name=Opacity }
+                    ParameterInfos[5] = { Name=RIGHT_Opacity }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[76] =
+        {
+            ScalarValues[0] = 0
+            ScalarValues[1] = 0
+            ScalarValues[2] = 0.4
+            ScalarValues[3] = 1.6
+            ScalarValues[4] = 0
+            ScalarValues[5] = 0
+            ScalarValues[6] = 0
+            ScalarValues[7] = 0
+            ScalarValues[8] = 0
+            ScalarValues[9] = 0
+            ScalarValues[10] = 0.5
+            ScalarValues[11] = 0
+            ScalarValues[12] = 0
+            ScalarValues[13] = 0
+            ScalarValues[14] = 0.5
+            ScalarValues[15] = -2
+            ScalarValues[16] = 0.4
+            ScalarValues[17] = 0.5
+            ScalarValues[18] = 0
+            ScalarValues[19] = -0.125
+            ScalarValues[20] = 0
+            ScalarValues[21] = 0.125
+            ScalarValues[22] = 0
+            ScalarValues[23] = 0
+            ScalarValues[24] = 0
+            ScalarValues[25] = -2
+            ScalarValues[26] = 0.5
+            ScalarValues[27] = 1.6
+            ScalarValues[28] = 0
+            ScalarValues[29] = 0
+            ScalarValues[30] = 0
+            ScalarValues[31] = 0
+            ScalarValues[32] = 0
+            ScalarValues[33] = 0.5
+            ScalarValues[34] = 1
+            ScalarValues[35] = 0
+            ScalarValues[36] = -0.125
+            ScalarValues[37] = 0
+            ScalarValues[38] = 0.8
+            ScalarValues[39] = 0
+            ScalarValues[40] = 200
+            ScalarValues[41] = 0
+            ScalarValues[42] = 0.4
+            ScalarValues[43] = 0
+            ScalarValues[44] = -1
+            ScalarValues[45] = 0
+            ScalarValues[46] = 0.5
+            ScalarValues[47] = 0
+            ScalarValues[48] = 0
+            ScalarValues[49] = 0
+            ScalarValues[50] = 0.8
+            ScalarValues[51] = 0
+            ScalarValues[52] = 0
+            ScalarValues[53] = 0
+            ScalarValues[54] = 0.125
+            ScalarValues[55] = 0.8
+            ScalarValues[56] = 200
+            ScalarValues[57] = 2
+            ScalarValues[58] = 0
+            ScalarValues[59] = 0
+            ScalarValues[60] = 0.5
+            ScalarValues[61] = 0.5
+            ScalarValues[62] = 2
+            ScalarValues[63] = 1
+            ScalarValues[64] = 1.6
+            ScalarValues[65] = 2
+            ScalarValues[66] = 0
+            ScalarValues[67] = 100
+            ScalarValues[68] = 1.6
+            ScalarValues[69] = 0
+            ScalarValues[70] = 200
+            ScalarValues[71] = 0
+            ScalarValues[72] = 1
+            ScalarValues[73] = -2
+            ScalarValues[74] = 0
+            ScalarValues[75] = 200
+        }
+        VectorValues[0] = {}
+        TextureValues[6] =
+        {
+            TextureValues[0] = Texture2D'/Game/VFX/Textures/AlphaGradient/00_Grad4x4_GS_TFX_Grayscale.00_Grad4x4_GS_TFX_Grayscale'
+            TextureValues[1] = Texture2D'/Game/VFX/Textures/NoiseDissolve/square_noise_Grayscale.square_noise_Grayscale'
+            TextureValues[2] = Texture2D'/Game/VFX/Textures/NoiseDissolve/square_noise_Grayscale.square_noise_Grayscale'
+            TextureValues[3] = Texture2D'/Game/VFX/Textures/AlphaGradient/00_Grad4x4_GS_TFX_Grayscale.00_Grad4x4_GS_TFX_Grayscale'
+            TextureValues[4] = Texture2D'/Game/VFX/Textures/AlphaGradient/00_Grad4x4_GS_TFX_Grayscale.00_Grad4x4_GS_TFX_Grayscale'
+            TextureValues[5] = Texture2D'/Game/VFX/Textures/AlphaGradient/00_Grad4x4_GS_TFX_Grayscale.00_Grad4x4_GS_TFX_Grayscale'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/VFX/Textures/NoiseDissolve/square_noise_Grayscale.square_noise_Grayscale'
+        ReferencedTextures[1] = Texture2D'/Game/VFX/Textures/AlphaGradient/00_Grad4x4_GS_TFX_Grayscale.00_Grad4x4_GS_TFX_Grayscale'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[6] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/VFX/Textures/AlphaGradient/00_Grad4x4_GS_TFX_Grayscale.00_Grad4x4_GS_TFX_Grayscale'
+        Name = BOT_Opacity
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/VFX/Textures/NoiseDissolve/square_noise_Grayscale.square_noise_Grayscale'
+        Name = Opacity Layer 1
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/VFX/Textures/NoiseDissolve/square_noise_Grayscale.square_noise_Grayscale'
+        Name = Emissive Color
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/VFX/Textures/AlphaGradient/00_Grad4x4_GS_TFX_Grayscale.00_Grad4x4_GS_TFX_Grayscale'
+        Name = LEFT_Opacity
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/VFX/Textures/AlphaGradient/00_Grad4x4_GS_TFX_Grayscale.00_Grad4x4_GS_TFX_Grayscale'
+        Name = Opacity
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/VFX/Textures/AlphaGradient/00_Grad4x4_GS_TFX_Grayscale.00_Grad4x4_GS_TFX_Grayscale'
+        Name = RIGHT_Opacity
+        Group = None
+    }
+}
+CollectedScalarParameters[76] =
+{
+    CollectedScalarParameters[0] =
+    {
+        Value = 0
+        Name = TexBOT_Emissive Color UVScale Offset V
+        Group = None
+    }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0
+        Name = BOT_Opacity Layer 1 UVScroll Scroll U
+        Group = None
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.4
+        Name = Emissive Color UVScale Scale V
+        Group = None
+    }
+    CollectedScalarParameters[3] =
+    {
+        Value = 1.6
+        Name = TexLEFT_Emissive Color UVScale Scale V
+        Group = None
+    }
+    CollectedScalarParameters[4] =
+    {
+        Value = 0
+        Name = Opacity ColorDissolveV2 Intensity Negative
+        Group = None
+    }
+    CollectedScalarParameters[5] =
+    {
+        Value = 0
+        Name = Emissive Color UVScroll Scroll U
+        Group = None
+    }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0
+        Name = BOT_Opacity UVScale Offset U
+        Group = None
+    }
+    CollectedScalarParameters[7] =
+    {
+        Value = 0
+        Name = TexRIGHT_Emissive Color UVScroll Scroll V
+        Group = None
+    }
+    CollectedScalarParameters[8] =
+    {
+        Value = 0
+        Name = TexRIGHT_Emissive Color UVScale Offset V
+        Group = None
+    }
+    CollectedScalarParameters[9] = { Value=0, Name=Position, Group=None }
+    CollectedScalarParameters[10] =
+    {
+        Value = 0.5
+        Name = LEFT_Opacity UVScale Scale U
+        Group = None
+    }
+    CollectedScalarParameters[11] =
+    {
+        Value = 0
+        Name = Emissive Color UVScale Offset V
+        Group = None
+    }
+    CollectedScalarParameters[12] =
+    {
+        Value = 0
+        Name = LEFT_Opacity UVScale Offset V
+        Group = None
+    }
+    CollectedScalarParameters[13] =
+    {
+        Value = 0
+        Name = RIGHT_Opacity UVScroll Scroll V
+        Group = None
+    }
+    CollectedScalarParameters[14] =
+    {
+        Value = 0.5
+        Name = LEFT_Opacity UVScale Scale V
+        Group = None
+    }
+    CollectedScalarParameters[15] =
+    {
+        Value = -2
+        Name = Opacity Layer 1 UVScroll Scroll V
+        Group = None
+    }
+    CollectedScalarParameters[16] =
+    {
+        Value = 0.4
+        Name = TexBOT_Emissive Color UVScale Scale V
+        Group = None
+    }
+    CollectedScalarParameters[17] =
+    {
+        Value = 0.5
+        Name = BOT_Opacity UVScale Scale U
+        Group = None
+    }
+    CollectedScalarParameters[18] =
+    {
+        Value = 0
+        Name = RIGHT_Opacity UVScale Offset U
+        Group = None
+    }
+    CollectedScalarParameters[19] =
+    {
+        Value = -0.125
+        Name = BOT_Opacity UVRotate Rotate
+        Group = None
+    }
+    CollectedScalarParameters[20] =
+    {
+        Value = 0
+        Name = LEFT_Opacity UVRotate Rotate Rate
+        Group = None
+    }
+    CollectedScalarParameters[21] =
+    {
+        Value = 0.125
+        Name = RIGHT_Opacity UVRotate Rotate
+        Group = None
+    }
+    CollectedScalarParameters[22] =
+    {
+        Value = 0
+        Name = Emissive Color UVScale Offset U
+        Group = None
+    }
+    CollectedScalarParameters[23] =
+    {
+        Value = 0
+        Name = TexBOT_Emissive Color UVScale Offset U
+        Group = None
+    }
+    CollectedScalarParameters[24] =
+    {
+        Value = 0
+        Name = LEFT_Opacity Layer 1 UVScroll Scroll V
+        Group = None
+    }
+    CollectedScalarParameters[25] =
+    {
+        Value = -2
+        Name = LEFT_Opacity Layer 1 UVScroll Scroll U
+        Group = None
+    }
+    CollectedScalarParameters[26] =
+    {
+        Value = 0.5
+        Name = BOT_Opacity UVScale Scale V
+        Group = None
+    }
+    CollectedScalarParameters[27] =
+    {
+        Value = 1.6
+        Name = TexBOT_Emissive Color UVScale Scale U
+        Group = None
+    }
+    CollectedScalarParameters[28] =
+    {
+        Value = 0
+        Name = Opacity UVScale Offset U
+        Group = None
+    }
+    CollectedScalarParameters[29] =
+    {
+        Value = 0
+        Name = RIGHT_Opacity UVScale Offset V
+        Group = None
+    }
+    CollectedScalarParameters[30] =
+    {
+        Value = 0
+        Name = LEFT_Opacity UVScale Offset U
+        Group = None
+    }
+    CollectedScalarParameters[31] =
+    {
+        Value = 0
+        Name = RIGHT_Opacity Layer 1 UVScale Offset V
+        Group = None
+    }
+    CollectedScalarParameters[32] =
+    {
+        Value = 0
+        Name = LEFT_Opacity UVScroll Scroll V
+        Group = None
+    }
+    CollectedScalarParameters[33] =
+    {
+        Value = 0.5
+        Name = RIGHT_Opacity UVScale Scale V
+        Group = None
+    }
+    CollectedScalarParameters[34] = { Value=1, Name=Dissolve, Group=None }
+    CollectedScalarParameters[35] =
+    {
+        Value = 0
+        Name = TexLEFT_Emissive Color UVScale Offset U
+        Group = None
+    }
+    CollectedScalarParameters[36] =
+    {
+        Value = -0.125
+        Name = Opacity UVRotate Rotate
+        Group = None
+    }
+    CollectedScalarParameters[37] =
+    {
+        Value = 0
+        Name = Opacity UVScroll Scroll U
+        Group = None
+    }
+    CollectedScalarParameters[38] =
+    {
+        Value = 0.8
+        Name = TexRIGHT_Emissive Color UVScale Scale U
+        Group = None
+    }
+    CollectedScalarParameters[39] =
+    {
+        Value = 0
+        Name = LEFT_Opacity UVScroll Scroll U
+        Group = None
+    }
+    CollectedScalarParameters[40] =
+    {
+        Value = 200
+        Name = LEFT_Opacity FloatPower Exp
+        Group = None
+    }
+    CollectedScalarParameters[41] =
+    {
+        Value = 0
+        Name = TexLEFT_Emissive Color UVScale Offset V
+        Group = None
+    }
+    CollectedScalarParameters[42] =
+    {
+        Value = 0.4
+        Name = RIGHT_Opacity Layer 1 UVScale Scale U
+        Group = None
+    }
+    CollectedScalarParameters[43] =
+    {
+        Value = 0
+        Name = RIGHT_Opacity UVRotate Rotate Rate
+        Group = None
+    }
+    CollectedScalarParameters[44] =
+    {
+        Value = -1
+        Name = Emissive Color UVScroll Scroll V
+        Group = None
+    }
+    CollectedScalarParameters[45] =
+    {
+        Value = 0
+        Name = BOT_Opacity UVScroll Scroll U
+        Group = None
+    }
+    CollectedScalarParameters[46] =
+    {
+        Value = 0.5
+        Name = Opacity UVScale Scale V
+        Group = None
+    }
+    CollectedScalarParameters[47] =
+    {
+        Value = 0
+        Name = Opacity Layer 1 UVScroll Scroll U
+        Group = None
+    }
+    CollectedScalarParameters[48] =
+    {
+        Value = 0
+        Name = Opacity UVScroll Scroll V
+        Group = None
+    }
+    CollectedScalarParameters[49] =
+    {
+        Value = 0
+        Name = BOT_Opacity UVScroll Scroll V
+        Group = None
+    }
+    CollectedScalarParameters[50] =
+    {
+        Value = 0.8
+        Name = RIGHT_Opacity Layer 1 UVScale Scale V
+        Group = None
+    }
+    CollectedScalarParameters[51] =
+    {
+        Value = 0
+        Name = TexBOT_Emissive Color UVScroll Scroll U
+        Group = None
+    }
+    CollectedScalarParameters[52] =
+    {
+        Value = 0
+        Name = TexLEFT_Emissive Color UVScroll Scroll V
+        Group = None
+    }
+    CollectedScalarParameters[53] =
+    {
+        Value = 0
+        Name = BOT_Opacity UVRotate Rotate Rate
+        Group = None
+    }
+    CollectedScalarParameters[54] =
+    {
+        Value = 0.125
+        Name = LEFT_Opacity UVRotate Rotate
+        Group = None
+    }
+    CollectedScalarParameters[55] =
+    {
+        Value = 0.8
+        Name = TexLEFT_Emissive Color UVScale Scale U
+        Group = None
+    }
+    CollectedScalarParameters[56] =
+    {
+        Value = 200
+        Name = BOT_Opacity FloatPower Exp
+        Group = None
+    }
+    CollectedScalarParameters[57] =
+    {
+        Value = 2
+        Name = TexRIGHT_Emissive Color UVScroll Scroll U
+        Group = None
+    }
+    CollectedScalarParameters[58] =
+    {
+        Value = 0
+        Name = RIGHT_Opacity UVScroll Scroll U
+        Group = None
+    }
+    CollectedScalarParameters[59] =
+    {
+        Value = 0
+        Name = Opacity UVRotate Rotate Rate
+        Group = None
+    }
+    CollectedScalarParameters[60] =
+    {
+        Value = 0.5
+        Name = RIGHT_Opacity UVScale Scale U
+        Group = None
+    }
+    CollectedScalarParameters[61] =
+    {
+        Value = 0.5
+        Name = Opacity UVScale Scale U
+        Group = None
+    }
+    CollectedScalarParameters[62] =
+    {
+        Value = 2
+        Name = RIGHT_Opacity Layer 1 UVScroll Scroll U
+        Group = None
+    }
+    CollectedScalarParameters[63] =
+    {
+        Value = 1
+        Name = TexBOT_Emissive Color UVScroll Scroll V
+        Group = None
+    }
+    CollectedScalarParameters[64] =
+    {
+        Value = 1.6
+        Name = TexRIGHT_Emissive Color UVScale Scale V
+        Group = None
+    }
+    CollectedScalarParameters[65] =
+    {
+        Value = 2
+        Name = BOT_Opacity Layer 1 UVScroll Scroll V
+        Group = None
+    }
+    CollectedScalarParameters[66] =
+    {
+        Value = 0
+        Name = RIGHT_Opacity Layer 1 UVScroll Scroll V
+        Group = None
+    }
+    CollectedScalarParameters[67] =
+    {
+        Value = 100
+        Name = Opacity ColorDissolveV2 Intensity
+        Group = None
+    }
+    CollectedScalarParameters[68] =
+    {
+        Value = 1.6
+        Name = Emissive Color UVScale Scale U
+        Group = None
+    }
+    CollectedScalarParameters[69] =
+    {
+        Value = 0
+        Name = RIGHT_Opacity Layer 1 UVScale Offset U
+        Group = None
+    }
+    CollectedScalarParameters[70] =
+    {
+        Value = 200
+        Name = Opacity FloatPower Exp
+        Group = None
+    }
+    CollectedScalarParameters[71] =
+    {
+        Value = 0
+        Name = BOT_Opacity UVScale Offset V
+        Group = None
+    }
+    CollectedScalarParameters[72] = { Value=1, Name=Emissive Intensify, Group=None }
+    CollectedScalarParameters[73] =
+    {
+        Value = -2
+        Name = TexLEFT_Emissive Color UVScroll Scroll U
+        Group = None
+    }
+    CollectedScalarParameters[74] =
+    {
+        Value = 0
+        Name = TexRIGHT_Emissive Color UVScale Offset U
+        Group = None
+    }
+    CollectedScalarParameters[75] =
+    {
+        Value = 200
+        Name = RIGHT_Opacity FloatPower Exp
+        Group = None
+    }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
