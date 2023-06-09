@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material 6
+  m_Name: New Material 8
   m_Shader: {fileID: 4800000, guid: 446de4ba36021554a94eb3e445fa294c, type: 3}
   m_ShaderKeywords: _CADDTEXUVT_ON _DISSOLVEAR_ON _DISSOLVEPLUSAR_ON _DISSOLVETEXUVS_NORMAL
     _DISTORTADDTEX_ON _DISTORTMASKTEXAR_ON _DISTORTTEXAR_ON _FACE_Y _IFADDTEXCOLOR_ON
@@ -43,11 +43,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DistortTex:
-        m_Texture: {fileID: 2800000, guid: f98bf6352ffd2a54da25ad40d61d0da6, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8dd4699777724fa47b3d7aa8e5beb4fb, type: 3}
+        m_Texture: {fileID: 2800000, guid: 883602e5fc72a00418dd587a490ae959, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskPlusTex:
@@ -145,7 +145,7 @@ Material:
     - _DissolveTexUVS: 0
     - _DistortAddTex: 1
     - _DistortDisTex: 1
-    - _DistortFactor: 0.171
+    - _DistortFactor: 0
     - _DistortFactorC1: 1
     - _DistortFactorC2: 3
     - _DistortMainTex: 0
@@ -263,7 +263,7 @@ Material:
     - _DIssloveColor: {r: 0, g: 0.2933188, b: 0.7264151, a: 1}
     - _DepthColor: {r: 0, g: 0, b: 0, a: 0}
     - _Dir: {r: 0, g: 0, b: 0, a: 0}
-    - _MainColor: {r: 11.984314, g: 4.266667, b: 1.3176471, a: 1}
+    - _MainColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 1}
     - _MainTexRefine: {r: 1, g: 1, b: 2, a: 0}
     - _TexCenter: {r: 0, g: 0, b: 0, a: 0}
     - _fnl_color: {r: 1, g: 1, b: 1, a: 0}
