@@ -11,8 +11,8 @@ Material:
   m_Shader: {fileID: 4800000, guid: 446de4ba36021554a94eb3e445fa294c, type: 3}
   m_ShaderKeywords: _CADDTEXUVT_ON _DISSOLVEAR_ON _DISSOLVEPLUSAR_ON _DISSOLVETEXUVS_NORMAL
     _DISTORTADDTEX_ON _DISTORTMASKTEXAR_ON _DISTORTTEXAR_ON _FACE_Y _IFADDTEXCOLOR_ON
-    _IFDISSOLVECOLOR_ON _MAINTEXCV_ON _MAINTEXC_ON _MAINTEXUVS_NORMAL _MASKALPHARA_ON
-    _MASKPLUSAR_ON _MASKTEXUVS_NORMAL _VTOAR_ON _VTOMASKAR_ON
+    _IFDISSOLVECOLOR_ON _MAINTEXCV_ON _MAINTEXC_ON _MAINTEXUVS_NORMAL _MAINTEX_AR_ON
+    _MASKALPHARA_ON _MASKPLUSAR_ON _MASKTEXUVS_NORMAL _VTOAR_ON _VTOMASKAR_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -47,7 +47,7 @@ Material:
         m_Scale: {x: 2, y: 2}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8dd4699777724fa47b3d7aa8e5beb4fb, type: 3}
+        m_Texture: {fileID: 2800000, guid: d226e58e2d23dbf47bb430700bf3454c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskPlusTex:
@@ -188,7 +188,7 @@ Material:
     - _MainTexUVS: 0
     - _MainTex_Uspeed: 0
     - _MainTex_Vspeed: 0
-    - _MainTex_ar: 0
+    - _MainTex_ar: 1
     - _MainTex_rotat: 0
     - _MaintexC: 1
     - _MaintexCV: 1
